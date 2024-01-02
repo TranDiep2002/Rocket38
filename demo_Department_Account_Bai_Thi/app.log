@@ -1,0 +1,270 @@
+2023-12-27 00:03:07,292 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m6s63ms464µs800ns).
+2023-12-27 00:03:40,726 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-27 00:03:40,734 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-27 07:58:50,254 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Starting DemoDepartmentAccountBaiThiApplication using Java 17.0.9 with PID 13388 (D:\Rocket39_intel\demo_Department_Account_Bai_Thi\target\classes started by admin in D:\Rocket39_intel\demo_Department_Account_Bai_Thi)
+2023-12-27 07:58:50,254 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-12-27 07:58:51,692 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-12-27 07:58:51,692 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-27 07:58:51,745 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-12-27 07:58:51,860 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-27 07:58:51,917 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-12-27 07:58:51,948 INFO org.hibernate.cache.internal.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2023-12-27 07:58:52,122 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-12-27 07:58:52,497 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2137ec91
+2023-12-27 07:58:52,497 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-12-27 07:58:53,161 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-27 07:58:54,553 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Started DemoDepartmentAccountBaiThiApplication in 4.641 seconds (process running for 5.343)
+2023-12-27 07:59:07,489 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-27 08:48:22,973 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m29s616ms782µs900ns).
+2023-12-27 09:08:24,060 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m30s788ms899µs600ns).
+2023-12-27 09:13:25,873 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2023-12-27 09:13:25,888 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2023-12-27 09:13:26,252 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Starting DemoDepartmentAccountBaiThiApplication using Java 17.0.9 with PID 13388 (D:\Rocket39_intel\demo_Department_Account_Bai_Thi\target\classes started by admin in D:\Rocket39_intel\demo_Department_Account_Bai_Thi)
+2023-12-27 09:13:26,252 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-12-27 09:13:26,763 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-12-27 09:13:26,763 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-27 09:13:26,790 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-12-27 09:13:26,841 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-27 09:13:26,841 INFO org.hibernate.cache.internal.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2023-12-27 09:13:26,841 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2023-12-27 09:13:26,857 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@203bb223
+2023-12-27 09:13:26,857 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2023-12-27 09:13:26,904 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-27 09:13:27,759 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Started DemoDepartmentAccountBaiThiApplication in 1.55 seconds (process running for 4478.536)
+2023-12-27 09:19:12,491 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown initiated...
+2023-12-27 09:19:12,493 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown completed.
+2023-12-27 09:19:12,559 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Starting DemoDepartmentAccountBaiThiApplication using Java 17.0.9 with PID 13388 (D:\Rocket39_intel\demo_Department_Account_Bai_Thi\target\classes started by admin in D:\Rocket39_intel\demo_Department_Account_Bai_Thi)
+2023-12-27 09:19:12,559 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-12-27 09:19:12,817 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-12-27 09:19:12,819 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-27 09:19:12,835 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-12-27 09:19:12,874 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-27 09:19:12,878 INFO org.hibernate.cache.internal.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2023-12-27 09:19:12,880 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2023-12-27 09:19:12,885 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5cd756e1
+2023-12-27 09:19:12,885 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2023-12-27 09:19:12,915 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-27 09:19:13,424 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Started DemoDepartmentAccountBaiThiApplication in 0.889 seconds (process running for 4824.204)
+2023-12-27 09:34:55,720 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown initiated...
+2023-12-27 09:34:55,727 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown completed.
+2023-12-27 09:34:55,782 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Starting DemoDepartmentAccountBaiThiApplication using Java 17.0.9 with PID 13388 (D:\Rocket39_intel\demo_Department_Account_Bai_Thi\target\classes started by admin in D:\Rocket39_intel\demo_Department_Account_Bai_Thi)
+2023-12-27 09:34:55,783 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-12-27 09:34:55,946 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+java.lang.TypeNotPresentException: Type com.example.demo_department_account_bai_thi.entity.Account not present
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125) ~[na:na]
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138) ~[na:na]
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:na]
+	at java.base/sun.reflect.generics.repository.ClassRepository.computeSuperInterfaces(ClassRepository.java:117) ~[na:na]
+	at java.base/sun.reflect.generics.repository.ClassRepository.getSuperInterfaces(ClassRepository.java:95) ~[na:na]
+	at java.base/java.lang.Class.getGenericInterfaces(Class.java:1211) ~[na:na]
+	at org.springframework.core.ResolvableType.getInterfaces(ResolvableType.java:517) ~[spring-core-6.1.1.jar:6.1.1]
+	at org.springframework.core.ResolvableType.as(ResolvableType.java:465) ~[spring-core-6.1.1.jar:6.1.1]
+	at org.springframework.data.util.TypeDiscoverer.getSuperTypeInformation(TypeDiscoverer.java:254) ~[spring-data-commons-3.2.0.jar:3.2.0]
+	at org.springframework.data.util.ClassTypeInformation.getSuperTypeInformation(ClassTypeInformation.java:36) ~[spring-data-commons-3.2.0.jar:3.2.0]
+	at org.springframework.data.util.TypeInformation.getRequiredSuperTypeInformation(TypeInformation.java:327) ~[spring-data-commons-3.2.0.jar:3.2.0]
+	at org.springframework.data.repository.core.support.DefaultRepositoryMetadata.<init>(DefaultRepositoryMetadata.java:55) ~[spring-data-commons-3.2.0.jar:3.2.0]
+	at org.springframework.data.repository.core.support.AbstractRepositoryMetadata.getMetadata(AbstractRepositoryMetadata.java:77) ~[spring-data-commons-3.2.0.jar:3.2.0]
+	at org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.getRepositoryConfigurations(RepositoryConfigurationExtensionSupport.java:91) ~[spring-data-commons-3.2.0.jar:3.2.0]
+	at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:164) ~[spring-data-commons-3.2.0.jar:3.2.0]
+	at org.springframework.boot.autoconfigure.data.AbstractRepositoryConfigurationSourceSupport.registerBeanDefinitions(AbstractRepositoryConfigurationSourceSupport.java:62) ~[spring-boot-autoconfigure-3.2.0.jar:3.2.0]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:376) ~[spring-context-6.1.1.jar:6.1.1]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[na:na]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:375) ~[spring-context-6.1.1.jar:6.1.1]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148) ~[spring-context-6.1.1.jar:6.1.1]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120) ~[spring-context-6.1.1.jar:6.1.1]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:428) ~[spring-context-6.1.1.jar:6.1.1]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289) ~[spring-context-6.1.1.jar:6.1.1]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.1.jar:6.1.1]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.1.jar:6.1.1]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:775) ~[spring-context-6.1.1.jar:6.1.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:597) ~[spring-context-6.1.1.jar:6.1.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:455) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1342) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1331) ~[spring-boot-3.2.0.jar:3.2.0]
+	at com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication.main(DemoDepartmentAccountBaiThiApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.0.jar:3.2.0]
+Caused by: java.lang.ClassNotFoundException: com.example.demo_department_account_bai_thi.entity.Account
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.2.0.jar:3.2.0]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114) ~[na:na]
+	... 41 common frames omitted
+2023-12-27 09:44:02,302 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Starting DemoDepartmentAccountBaiThiApplication using Java 17.0.9 with PID 13388 (D:\Rocket39_intel\demo_Department_Account_Bai_Thi\target\classes started by admin in D:\Rocket39_intel\demo_Department_Account_Bai_Thi)
+2023-12-27 09:44:02,302 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-12-27 09:44:02,539 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+java.lang.TypeNotPresentException: Type com.example.demo_department_account_bai_thi.entity.Department not present
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125) ~[na:na]
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138) ~[na:na]
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:na]
+	at java.base/sun.reflect.generics.repository.ClassRepository.computeSuperInterfaces(ClassRepository.java:117) ~[na:na]
+	at java.base/sun.reflect.generics.repository.ClassRepository.getSuperInterfaces(ClassRepository.java:95) ~[na:na]
+	at java.base/java.lang.Class.getGenericInterfaces(Class.java:1211) ~[na:na]
+	at org.springframework.core.ResolvableType.getInterfaces(ResolvableType.java:517) ~[spring-core-6.1.1.jar:6.1.1]
+	at org.springframework.core.ResolvableType.as(ResolvableType.java:465) ~[spring-core-6.1.1.jar:6.1.1]
+	at org.springframework.data.util.TypeDiscoverer.getSuperTypeInformation(TypeDiscoverer.java:254) ~[spring-data-commons-3.2.0.jar:3.2.0]
+	at org.springframework.data.util.ClassTypeInformation.getSuperTypeInformation(ClassTypeInformation.java:36) ~[spring-data-commons-3.2.0.jar:3.2.0]
+	at org.springframework.data.util.TypeInformation.getRequiredSuperTypeInformation(TypeInformation.java:327) ~[spring-data-commons-3.2.0.jar:3.2.0]
+	at org.springframework.data.repository.core.support.DefaultRepositoryMetadata.<init>(DefaultRepositoryMetadata.java:55) ~[spring-data-commons-3.2.0.jar:3.2.0]
+	at org.springframework.data.repository.core.support.AbstractRepositoryMetadata.getMetadata(AbstractRepositoryMetadata.java:77) ~[spring-data-commons-3.2.0.jar:3.2.0]
+	at org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.getRepositoryConfigurations(RepositoryConfigurationExtensionSupport.java:91) ~[spring-data-commons-3.2.0.jar:3.2.0]
+	at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:164) ~[spring-data-commons-3.2.0.jar:3.2.0]
+	at org.springframework.boot.autoconfigure.data.AbstractRepositoryConfigurationSourceSupport.registerBeanDefinitions(AbstractRepositoryConfigurationSourceSupport.java:62) ~[spring-boot-autoconfigure-3.2.0.jar:3.2.0]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:376) ~[spring-context-6.1.1.jar:6.1.1]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[na:na]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:375) ~[spring-context-6.1.1.jar:6.1.1]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148) ~[spring-context-6.1.1.jar:6.1.1]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120) ~[spring-context-6.1.1.jar:6.1.1]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:428) ~[spring-context-6.1.1.jar:6.1.1]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289) ~[spring-context-6.1.1.jar:6.1.1]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.1.jar:6.1.1]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.1.jar:6.1.1]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:775) ~[spring-context-6.1.1.jar:6.1.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:597) ~[spring-context-6.1.1.jar:6.1.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:455) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1342) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1331) ~[spring-boot-3.2.0.jar:3.2.0]
+	at com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication.main(DemoDepartmentAccountBaiThiApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.0.jar:3.2.0]
+Caused by: java.lang.ClassNotFoundException: com.example.demo_department_account_bai_thi.entity.Department
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.2.0.jar:3.2.0]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114) ~[na:na]
+	... 41 common frames omitted
+2023-12-27 09:46:58,126 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Starting DemoDepartmentAccountBaiThiApplication using Java 17.0.9 with PID 13388 (D:\Rocket39_intel\demo_Department_Account_Bai_Thi\target\classes started by admin in D:\Rocket39_intel\demo_Department_Account_Bai_Thi)
+2023-12-27 09:46:58,126 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-12-27 09:46:58,475 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-12-27 09:46:58,477 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-27 09:46:58,508 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-12-27 09:46:58,666 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-27 09:46:58,666 INFO org.hibernate.cache.internal.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2023-12-27 09:46:58,682 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2023-12-27 09:46:58,698 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e107018
+2023-12-27 09:46:58,698 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2023-12-27 09:46:58,736 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-27 09:46:59,126 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Started DemoDepartmentAccountBaiThiApplication in 1.021 seconds (process running for 6489.907)
+2023-12-27 09:47:00,548 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-4 - Shutdown initiated...
+2023-12-27 09:47:00,554 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-4 - Shutdown completed.
+2023-12-27 09:47:00,602 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Starting DemoDepartmentAccountBaiThiApplication using Java 17.0.9 with PID 13388 (D:\Rocket39_intel\demo_Department_Account_Bai_Thi\target\classes started by admin in D:\Rocket39_intel\demo_Department_Account_Bai_Thi)
+2023-12-27 09:47:00,602 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-12-27 09:47:00,789 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-12-27 09:47:00,789 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-27 09:47:00,798 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-12-27 09:47:00,817 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-27 09:47:00,833 INFO org.hibernate.cache.internal.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2023-12-27 09:47:00,833 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2023-12-27 09:47:00,833 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56a1a52d
+2023-12-27 09:47:00,833 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2023-12-27 09:47:00,864 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-27 09:47:01,780 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Started DemoDepartmentAccountBaiThiApplication in 1.192 seconds (process running for 6492.564)
+2023-12-27 10:05:05,168 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=6m4s44ms328µs500ns).
+2023-12-27 10:17:02,787 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=1m57s445ms604µs100ns).
+2023-12-27 10:26:35,176 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-5 - Shutdown initiated...
+2023-12-27 10:26:35,176 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-5 - Shutdown completed.
+2023-12-27 20:16:19,332 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Starting DemoDepartmentAccountBaiThiApplication using Java 17.0.9 with PID 12448 (D:\Rocket39_intel\demo_Department_Account_Bai_Thi\target\classes started by admin in D:\Rocket39_intel\demo_Department_Account_Bai_Thi)
+2023-12-27 20:16:19,337 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-12-27 20:16:21,000 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-12-27 20:16:21,000 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-27 20:16:21,073 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-12-27 20:16:21,255 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-27 20:16:21,351 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-12-27 20:16:21,441 INFO org.hibernate.cache.internal.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2023-12-27 20:16:21,944 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-12-27 20:16:22,610 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a4b4dbe
+2023-12-27 20:16:22,614 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-12-27 20:16:24,123 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-27 20:16:26,539 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Started DemoDepartmentAccountBaiThiApplication in 7.598 seconds (process running for 8.842)
+2023-12-27 20:17:06,083 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-27 20:25:45,668 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2023-12-27 20:25:45,703 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2023-12-27 20:25:45,968 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Starting DemoDepartmentAccountBaiThiApplication using Java 17.0.9 with PID 12448 (D:\Rocket39_intel\demo_Department_Account_Bai_Thi\target\classes started by admin in D:\Rocket39_intel\demo_Department_Account_Bai_Thi)
+2023-12-27 20:25:45,969 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-12-27 20:25:46,829 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-12-27 20:25:46,829 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-27 20:25:46,867 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-12-27 20:25:46,954 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-27 20:25:46,960 INFO org.hibernate.cache.internal.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2023-12-27 20:25:46,970 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2023-12-27 20:25:47,009 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@379f4e9c
+2023-12-27 20:25:47,009 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2023-12-27 20:25:47,098 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-27 20:25:48,477 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Started DemoDepartmentAccountBaiThiApplication in 2.591 seconds (process running for 570.781)
+2023-12-27 20:25:49,894 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown initiated...
+2023-12-27 20:25:49,903 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown completed.
+2023-12-27 20:25:50,013 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Starting DemoDepartmentAccountBaiThiApplication using Java 17.0.9 with PID 12448 (D:\Rocket39_intel\demo_Department_Account_Bai_Thi\target\classes started by admin in D:\Rocket39_intel\demo_Department_Account_Bai_Thi)
+2023-12-27 20:25:50,014 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-12-27 20:25:50,521 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-12-27 20:25:50,522 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-27 20:25:50,547 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-12-27 20:25:50,614 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-27 20:25:50,618 INFO org.hibernate.cache.internal.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2023-12-27 20:25:50,622 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2023-12-27 20:25:50,643 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40d81df0
+2023-12-27 20:25:50,643 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2023-12-27 20:25:50,700 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-27 20:25:51,472 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Started DemoDepartmentAccountBaiThiApplication in 1.51 seconds (process running for 573.776)
+2023-12-27 20:27:53,571 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-27 20:27:58,699 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown initiated...
+2023-12-27 20:27:58,709 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown completed.
+2023-12-27 20:27:58,871 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Starting DemoDepartmentAccountBaiThiApplication using Java 17.0.9 with PID 12448 (D:\Rocket39_intel\demo_Department_Account_Bai_Thi\target\classes started by admin in D:\Rocket39_intel\demo_Department_Account_Bai_Thi)
+2023-12-27 20:27:58,872 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-12-27 20:27:59,688 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-12-27 20:27:59,688 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-27 20:27:59,739 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-12-27 20:27:59,841 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-27 20:27:59,845 INFO org.hibernate.cache.internal.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2023-12-27 20:27:59,855 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2023-12-27 20:27:59,886 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22d6c887
+2023-12-27 20:27:59,886 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2023-12-27 20:28:00,098 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-27 20:28:01,545 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-27 20:28:01,558 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Started DemoDepartmentAccountBaiThiApplication in 2.75 seconds (process running for 703.861)
+2023-12-27 20:28:02,970 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-4 - Shutdown initiated...
+2023-12-27 20:28:02,978 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-4 - Shutdown completed.
+2023-12-27 20:28:03,105 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Starting DemoDepartmentAccountBaiThiApplication using Java 17.0.9 with PID 12448 (D:\Rocket39_intel\demo_Department_Account_Bai_Thi\target\classes started by admin in D:\Rocket39_intel\demo_Department_Account_Bai_Thi)
+2023-12-27 20:28:03,106 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-12-27 20:28:03,724 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-12-27 20:28:03,724 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-27 20:28:03,752 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-12-27 20:28:03,820 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-27 20:28:03,826 INFO org.hibernate.cache.internal.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2023-12-27 20:28:03,834 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2023-12-27 20:28:03,855 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70374d9a
+2023-12-27 20:28:03,856 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2023-12-27 20:28:03,924 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-27 20:28:04,944 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Started DemoDepartmentAccountBaiThiApplication in 1.884 seconds (process running for 707.247)
+2023-12-27 20:28:14,545 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-27 20:30:43,277 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-5 - Shutdown initiated...
+2023-12-27 20:30:43,277 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-5 - Shutdown completed.
