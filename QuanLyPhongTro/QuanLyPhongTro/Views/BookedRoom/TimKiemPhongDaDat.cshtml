@@ -1,0 +1,126 @@
+﻿@using QuanLyPhongTro.Models.Pagination;
+@model QuanLyPhongTro.Models.ViewModels.BookedModel
+
+@{
+    string cookieValue = ViewBag.CookieValue;
+    ViewData["AccountUser"] = cookieValue;
+    int CountBooked = ViewBag.CountBooked;
+    ViewData["CountBooked"] = CountBooked;
+    int CountCustomer = ViewBag.CountCustomer;
+    ViewData["CountCustomer"] = CountCustomer;
+    int CountPartner = ViewBag.CountPartner;
+    ViewData["CountPartner"] = CountPartner;
+    int CountAccess = ViewBag.CountAccess;
+    ViewData["CountAccess"] = CountAccess;
+
+    ViewData["Action"] = "BookedRoomIndex";
+    ViewData["Controller"] = "BookedRoom";
+
+
+
+    Pager pager = new Pager();
+    int pageNo = 0;
+
+    if (ViewBag.Pager != null)
+    {
+        pager = ViewBag.Pager;
+        pageNo = pager.CurentPage;
+    }
+
+}
+@section StyleCss {
+    <link rel="stylesheet" href="~/css/quanlybaidang.css" />
+}
+
+<div class="container-fluid d-flex justify-content-center align-items-center">
+    <div class="container mw-1200">
+        <div class="row">
+
+            @Html.Partial("Sidebar")
+            <!--================================-->
+            <!--=====Thanh tìm kiếm trong quản lý phòng đã thuê-->
+            @*  <div class="col-lg-3 col-md-12">
+            <div class="body__searchbox">
+            <form method="get" asp-action="SearchPhongThue" asp-controller="SidebarSearch" onsubmit="return validateForm()" class="d-flex flex-column w-100">
+            <h4>Tìm kiếm</h4>
+
+            <p>Tên chỗ nghỉ/điểm đến</p>
+            <div class="input-group">
+            <span class="input-group-text">
+            <span class="fa-solid fa-magnifying-glass"></span>
+            </span>
+            <input type="text" value="@ViewData["ValueSearch"]" class="form-control" name="name" placeholder="Nhập điểm đến">
+            </div>
+
+            @* <p>Ngày nhận phòng</p>
+            <div class="input-group">
+            <span class="input-group-text">
+            <span class="fa-regular fa-calendar"></span>
+            </span>
+            <input type="date" value="@ViewData["ValueDateS"]" class="form-control" name="ngayBD" id="checkInDate">
+            <span id="error" class="toast-message danger" style="color:red;"></span>
+            </div>
+
+            <p>Ngày trả phòng</p>
+            <div class="input-group">
+            <span class="input-group-text">
+            <span class="fa-regular fa-calendar"></span>
+            </span>
+            <input type="date" value="@ViewData["ValueDateE"]" class="form-control" name="ngayKT" id="checkOutDate">
+            </div>
+            <button class="btn btn-primary" type="submit">Tìm</button>
+
+            </form>
+            </div> *@
+            <!--=================================-->
+            <div class="col-lg-9 col-md-12">
+                <div class="list-destination d-flex flex-column w-100">
+                    @if (ViewData["CountBooked"] != null)
+                    {
+                        <p class="title-search">Số phòng đã thuê: @ViewData["CountBooked"] </p>
+                    }
+                    else
+                    {
+                        <p class="title-search">Số phòng đã thuê: 0 </p>
+                    }
+                    @*  <div class="input-group arrangeBox">
+                    <div class="wrap_arrange d-flex w-100">
+                    <span class="input-group-text">
+                    <span class="fa-solid fa-arrow-right-arrow-left"></span>
+                    </span>
+                    <select class="form-select choose-condition" style="margin-left:10px;" id="validationCustom04" required>
+                    <option selected disabled value="">Sắp xếp theo ngày đăng mới nhất</option>
+                    <option selected disabled value="">Sắp xếp theo lượt xem cao nhất</option>
+                    <option selected disabled value="">Sắp xếp theo bài đăng có user xem gần nhất</option>
+                    </select>
+                    </div>
+                    </div> *@
+
+                    @if (Model != null && Model.chiTietDatPhongs != null)
+                    {
+                        @foreach (var item in Model.chiTietDatPhongs)
+                        {
+                            <div class="posts-item d-flex flex-row align-items-center mt-30" id="@item.Id">
+                                <img src="~/imgUp/@item.PhongTro.Anh" alt="" class="posts-img">
+                                <div class="posts--info">
+                                    <p class="posts--province mt-15">@item.PhongTro.TinhThanh.TenTinh</p>
+                                    <h5 class="posts--title"><a asp-action="BookedDetail" asp-route-roomId="@item.Id">@item.PhongTro.DiaChi</a></h5>
+                                    <p class="posts--price">Giá: @item.PhongTro.Gia VNĐ</p>
+                                    <p class="posts--address">Diện tích: @item.PhongTro.Gia </p>
+                                </div>
+                                <div class="btn-wrap mt-30 d-flex flex-column" style="margin-right:20px;">
+                                    <a class="btn btn-primary mb-10" asp-action="BookedDetail" asp-controller="BookedRoom" asp-route-roomId="@item.Id">Thông tin phòng</a>
+                                    @* <a class="btn btn-warning" href="javascript:void(0)" onclick="DeleteRoom(@item.Id)">Xóa</a> *@
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+
+
+        </div>
+
+        @Html.Partial("_Pagination", pager)
+    </div>
+</div>

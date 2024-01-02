@@ -1,0 +1,177 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = QuanLyPhongTro
+build_property.RootNamespace = QuanLyPhongTro
+build_property.ProjectDir = d:\BTVN_VTI\Rocket38\QuanLyPhongTro\QuanLyPhongTro\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = d:\BTVN_VTI\Rocket38\QuanLyPhongTro\QuanLyPhongTro
+build_property._RazorSourceGeneratorDebug = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/AppRoles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwUm9sZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/AppRoles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwUm9sZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/Authencation/Denied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVuY2F0aW9uXERlbmllZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/Authencation/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVuY2F0aW9uXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/Authencation/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVuY2F0aW9uXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/BookedManager/BookedList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2VkTWFuYWdlclxCb29rZWRMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/BookedRoom/BookedDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2VkUm9vbVxCb29rZWREZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/BookedRoom/BookedRoomIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2VkUm9vbVxCb29rZWRSb29tSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/BookedRoom/BookedRoomInformation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2VkUm9vbVxCb29rZWRSb29tSW5mb3JtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/BookedRoom/TimKiemPhongDaDat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2VkUm9vbVxUaW1LaWVtUGhvbmdEYURhdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/DashBoard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaEJvYXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/Home/SearchHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2hIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/PermissionManager/PermissionList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzc2lvbk1hbmFnZXJcUGVybWlzc2lvbkxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/PosterManager/PosterList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdGVyTWFuYWdlclxQb3N0ZXJMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/Poster/CreatePoster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdGVyXENyZWF0ZVBvc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/Poster/EditPoster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdGVyXEVkaXRQb3N0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/Poster/PosterIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdGVyXFBvc3RlckluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/Poster/TimKiemBaiDangTheoGia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdGVyXFRpbUtpZW1CYWlEYW5nVGhlb0dpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/Profile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/RoomManager/RoomList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbU1hbmFnZXJcUm9vbUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/Room/CreateRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxDcmVhdGVSb29tLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/Room/EditRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxFZGl0Um9vbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/Room/RoomIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxSb29tSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/Search/PosterDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXFBvc3RlckRldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/Search/TopPoster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXFRvcFBvc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/Shared/Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNpZGViYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/Shared/SidebarHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNpZGViYXJIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/Shared/_Pagination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYWdpbmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/Shared/_PaginationSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYWdpbmF0aW9uU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/SideBarSearch/SearchAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lkZUJhclNlYXJjaFxTZWFyY2hBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/SideBarSearch/SearchPhongThue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lkZUJhclNlYXJjaFxTZWFyY2hQaG9uZ1RodWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/UserManager/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1hbmFnZXJcVXNlckxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/BTVN_VTI/Rocket38/QuanLyPhongTro/QuanLyPhongTro/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4ukpbwjfep

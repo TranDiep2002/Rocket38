@@ -1,0 +1,325 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - QuanLyPhongTro</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/trangchu.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/base.css" />
+    <link rel="stylesheet" href="~/QuanLyPhongTro.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    @await RenderSectionAsync("StyleCss", required: false)
+</head>
+<body>
+    <header class="d-flex justify-content-center w-100">
+        <div class="d-flex flex-row justify-content-between w-100 header">
+            <div class="img">
+                <a href="/" >
+                    <img src="~/img\logo (1).png" />
+                </a>
+            </div>
+            <div class="action d-none d-lg-flex">
+                <ul class="d-flex action-list">
+                    <li>
+                        <a href="/">LUXSTAY</a>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class=" dropdown-toggle action-authencation-dropdown" type="button" id="homestay-dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                HOMESTAY
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="homestay-dropdown">
+                                <li><a class="dropdown-item" href="#">Miền Bắc</a></li>
+                                <li><a class="dropdown-item" href="#">Miền Trung</a></li>
+                                <li><a class="dropdown-item" href="#">Miền Nam</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="/">THÔNG TIN</a>
+                    </li>
+                    <li>
+                        <a href="/">LIÊN HỆ</a>
+                    </li>
+                </ul>
+            </div>
+            @if (ViewData["AccountUser"] != null)
+            {
+            <div class="action-authencation d-flex justify-content-center align-items-center">
+                <div class="dropdown action-authencation--account d-none d-lg-block">
+                    <button class=" dropdown-toggle action-account-dropdown" type="button" id="account-dropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-regular fa-circle-user"></i>
+                        <span>Tài khoản</span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="account-dropdown">
+                        <li><a class="dropdown-item" asp-action="Index" asp-controller="Profile">Trang cá nhân</a></li>
+                        <li><a class="dropdown-item" asp-action="Logout" asp-controller="Home">Đăng xuất</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            }
+            else
+            {
+            <div class="authentic d-none d-md-block text-align-center">
+                <ul class="d-flex">
+                    <li>
+                        <button class="btn btn-primary">
+                                <a asp-action="Register" asp-controller="Authencation">Đăng kí</a>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn btn-warning">
+                                <a asp-action="Login" asp-controller="Authencation">Đăng nhập</a>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            }
+
+
+            <button class="action-bar d-lg-none d-flex align-items-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                    aria-controls="offcanvasExample">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h4 class="offcanvas-title" id="offcanvasExampleLabel">LUXSTAY</h4>
+
+                    @if (ViewData["AccountUser"] != null)
+                    {
+                    <div class="action-authencation d-flex justify-content-center align-items-center">
+                        <div class="dropdown action-authencation--account d-lg-none">
+                            <button class=" dropdown-toggle action-account-dropdown" type="button" id="account-dropdown"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-regular fa-circle-user"></i>
+                                <span>Tài khoản</span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="account-dropdown">
+                                    <li><a class="dropdown-item" asp-action="Index" asp-controller="Profile">Trang cá nhân</a></li>
+                                    <li><a class="dropdown-item" asp-action="Logout" asp-controller="Home">Đăng xuất</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    }
+                    else
+                    {
+                    <div class="authentic text-align-center">
+                        <ul class="d-flex ">
+                            <li>
+                                    <a class="" asp-action="Register" asp-controller="Authencation">Đăng kí</a>
+                            </li>
+                            <li>
+                                    <a class="" asp-action="Login" asp-controller="Authencation">Đăng nhập</a>
+                            </li>
+                        </ul>
+                    </div>
+                    }
+
+
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="action ">
+                        <ul class="d-flex flex-column action-list">
+                            <li>
+                                <a href="/">LUXSTAY</a>
+                            </li>
+                            <li>
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                            <button class="accordion-button collapsed action-account-accord" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                HOMESTAY
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                                             data-bs-parent="#accordionFlushExample">
+                                            <ul class="">
+                                                <li><a class="dropdown-item" href="#">Miền Bắc</a></li>
+                                                <li><a class="dropdown-item" href="#">Miền Trung</a></li>
+                                                <li><a class="dropdown-item" href="#">Miền Nam</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="/">THÔNG TIN</a>
+                            </li>
+                            <li>
+                                <a href="/">LIÊN HỆ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <main role="main" class="pb-3 mt-50">
+            @RenderBody()
+        </main>
+    </div>
+
+        <footer">
+        <div class="container-fluid main d-flex justify-content-center align-items-center" style="background: url(https://www.luxstay.me/wp-content/uploads/2018/05/bg-facts.jpg); background-size: cover; background-repeat: no-repeat;">
+                <div class="row mw-1200 d-flex w-100 mb-5">
+                    <div class="col-lg-3  col-md-6">
+                        <div class="footer-action d-flex flex-column justify-content-center align-items-center">
+                            <i class="fa-solid fa-handshake"></i>
+                            <span>Đối tác</span>
+                           @*  @if (ViewData["CountPartner"] != null)
+                            {
+                                <p>
+                                    @ViewData["CountPartner"]
+                                </p>
+                            }
+                            else
+                            {
+                                <p>NAN</p>
+                            } *@
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-md-6">
+                        <div class="footer-action d-flex flex-column justify-content-center align-items-center">
+                            <i class="fa-solid fa-users"></i>
+                            <span>Khách hàng</span>
+                            @* @if (ViewData["CountCustomer"] != null)
+                            {
+                                <p>
+                                    @ViewData["CountCustomer"]
+                                </p>
+                            }
+                            else
+                            {
+                                <p>NAN</p>
+                            } *@
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-md-6">
+                        <div class="footer-action d-flex flex-column justify-content-center align-items-center">
+                            <i class="fa-solid fa-cloud-arrow-down"></i>
+                             <span>Truy cập</span>
+                            @* @if (ViewData["CountAccess"] != null)
+                            {
+                                <p>
+                                    @ViewData["CountAccess"]
+                                </p>
+                            }
+                            else
+                            {
+                                <p>NAN</p>
+                            }  *@
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-md-6">
+                        <div class="footer-action d-flex flex-column justify-content-center align-items-center">
+                            <i class="fa-solid fa-life-ring"></i>
+                            <span>Đặt phòng</span>
+                           @*  @if (ViewData["CountBooked"] != null)
+                            {
+                                <p>
+                                    @ViewData["CountBooked"]
+                                </p>
+                            }
+                            else
+                            {
+                                <p>NAN</p>
+                            } *@
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <div class="container-fluid d-flex justify-content-center copyright">
+                <div class="mw-1200 w-100 d-flex justify-content-between">
+                    <span class="">@@2023 Luxstay - Homestay - Copyright Nhom21</span>
+                    @* <div class="d-flex flex-row p-0">
+                        <span>Thời gian đăng nhập: </span>
+                        <span id="elapsedTime">NAN</span>
+                    </div>
+                    <div class="d-flex flex-row p-0">
+                        <span>Số người đang online: </span>
+                        <span id="activeUser">NAN</span>
+                    </div> *@
+                </div>
+            </div>
+        </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+        function getCurrentTime() {
+            return new Date();
+        }
+
+        // Hàm để gửi thời gian hiện tại về server
+        function sendLoginTime() {
+            var currentTime = getCurrentTime();
+            var url = '@Url.Action("LoginTime", "Home")';
+
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', url, true);
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+            // Xử lý sự kiện khi yêu cầu hoàn thành
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4) {
+                    if (xhr.status === 200) {
+                        // Phản hồi từ server
+                        var result = JSON.parse(xhr.responseText);
+                        document.getElementById("elapsedTime").innerText = result.time;
+                    } else {
+                        console.error('Lỗi yêu cầu:', xhr.status);
+                    }
+                }
+            };
+
+            // Chuyển đối tượng dữ liệu thành chuỗi query string
+            var data = 'TimeClient=' + encodeURIComponent(currentTime.toISOString());
+
+            // Gửi yêu cầu với dữ liệu đã chuẩn bị
+            xhr.send(data);
+           
+        }
+
+        function ActiveUserCount() {
+            var url = '/api/activeUser';
+
+            var xhr = new XMLHttpRequest();
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", url, true);
+
+            xhr.onload = function () {
+                if (xhr.status >= 200 && xhr.status < 300) {
+                    var responseObject = JSON.parse(xhr.responseText);
+                    document.getElementById("activeUser").innerText = responseObject.countUser;
+                } else {
+                    console.error("Request failed with status: " + xhr.status);
+                }
+            };
+
+            xhr.onerror = function () {
+                console.error("Request failed");
+            };
+
+            xhr.send();
+           
+        }
+
+        // Gọi hàm sendLoginTime khi trang được load
+        $(document).ready(function () {
+            sendLoginTime();
+            ActiveUserCount();
+        });
+    </script>
+</body>
+</html>
