@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<h4>Edit Department</h4>
+
+<form action="#" class="">
+    <div>
+        <label for="">Department Name</label>
+        <input type="text" id="departmentName" class="form-control" style="width: 60%" />
+    </div>
+    <div>
+        <button id="btnUpdate" type="button" class="btn btn-sm btn-primary">Update</button>
+    </div>
+</form>
+
+<script>
+    $(function () {
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const id = urlParams.get('id')
+        console.log("Id: " + id);
+
+        $.ajax({
+            type: "GET",
+            url: `http://localhost:8080/department/${id}`,
+            contentType: "application/json",
+            headers: {
+                "Authorization": "Basic " + btoa("lan:123123")
+            },
+
+            success: function(res) {
+                console.log("Get by id success");
+                console.log(res);
+                $("#departmentName").val(res.departmentName);
+            },
+            error: function(res) {
+                console.log("Error!");
+                console.log(res);
+            },
+        });
+
+        $("#btnUpdate").click(function () {
+            let dn =  $("#departmentName").val();
+            let department = {
+                departmentName: dn
+            };
+
+            $.ajax({
+                type: "PUT",
+                url: `http://localhost:8080/department/${id}`,
+                contentType: "application/json",
+                headers: {
+                    "Authorization": "Basic " + btoa("lan:123123")
+                },
+                data: JSON.stringify(department),
+                success: function(res) {
+                    console.log("Update Successfully!");
+                    window.location = "http://localhost:63342/demo_Department_Account_Bai_Thi/templates/Department.html?";
+                },
+                error: function(res) {
+                    console.log("Error!");
+                    console.log(res);
+                },
+            });
+        });
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+2024-04-12 08:56:15,357 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Starting DemoDepartmentAccountBaiThiApplication using Java 17.0.9 with PID 20300 (D:\Rocket39_intel\demo_Department_Account_Bai_Thi\target\classes started by admin in D:\Rocket39_intel\demo_Department_Account_Bai_Thi)
+2024-04-12 08:56:15,364 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-12 08:56:20,154 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2024-04-12 08:56:20,154 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-04-12 08:56:20,308 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-04-12 08:56:20,464 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-12 08:56:20,534 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-04-12 08:56:20,580 INFO org.hibernate.cache.internal.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-04-12 08:56:20,848 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-04-12 08:56:21,336 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b91d34c
+2024-04-12 08:56:21,338 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-04-12 08:56:23,813 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-12 08:56:26,724 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Started DemoDepartmentAccountBaiThiApplication in 12.181 seconds (process running for 14.168)
+2024-04-12 08:59:21,923 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-12 08:59:22,002 ERROR com.example.demo_department_account_bai_thi.jwt.JwtTokenProvider [http-nio-8080-exec-2] Expired JWT Token
+2024-04-12 11:06:24,136 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-9] Get all list of account
+2024-04-12 11:06:24,578 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-4] Get all list of account
+2024-04-12 11:07:07,053 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-4] Get all list of account
+2024-04-12 11:07:07,087 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-6] Get all list of account
+2024-04-12 11:07:38,921 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-6] Get all list of account
+2024-04-12 11:07:38,950 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-8] Get all list of account
+2024-04-12 11:08:53,623 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-3] Get all list of account
+2024-04-12 11:08:53,655 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-2] Get all list of account
+2024-04-12 11:09:01,926 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-2] Get all list of account
+2024-04-12 11:09:01,954 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-9] Get all list of account
+2024-04-12 11:16:00,528 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-2] Get all list of account
+2024-04-12 11:16:00,601 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-1] Get all list of account
+2024-04-12 11:16:11,730 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-6] Get all list of account
+2024-04-12 11:16:11,762 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-3] Get all list of account
+2024-04-12 11:16:28,699 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-10] Get all list of account
+2024-04-12 11:16:28,731 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-9] Get all list of account
+2024-04-12 11:17:31,457 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-1] Get all list of account
+2024-04-12 11:17:31,485 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-8] Get all list of account
+2024-04-12 11:21:32,040 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-8] Get all list of account
+2024-04-12 11:21:32,066 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-2] Get all list of account
+2024-04-12 11:23:29,695 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-8] Get all list of account
+2024-04-12 11:23:29,722 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-7] Get all list of account
+2024-04-12 11:26:37,817 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-2] Get all list of account
+2024-04-12 11:26:37,847 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-7] Get all list of account
+2024-04-12 11:30:31,623 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-6] Get all list of account
+2024-04-12 11:30:31,645 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-3] Get all list of account
+2024-04-12 11:31:34,092 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-10] Get all list of account
+2024-04-12 11:32:32,089 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-5] Get all list of account
+2024-04-12 11:33:18,085 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-1] Get all list of account
+2024-04-12 11:33:53,093 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-7] Get all list of account
+2024-04-12 12:33:53,381 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53m59s296ms740µs900ns).
+2024-04-12 12:42:42,891 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-9] Get all list of account
+2024-04-12 12:42:42,916 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-10] Get all list of account
+2024-04-12 12:43:19,098 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-2] Get all list of account
+2024-04-12 12:52:03,600 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-12 12:52:03,665 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-12 13:39:09,248 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Starting DemoDepartmentAccountBaiThiApplication using Java 17.0.9 with PID 1428 (D:\Rocket39_intel\demo_Department_Account_Bai_Thi\target\classes started by admin in D:\Rocket39_intel\demo_Department_Account_Bai_Thi)
+2024-04-12 13:39:09,251 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-12 13:39:12,900 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2024-04-12 13:39:12,901 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-04-12 13:39:12,983 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-04-12 13:39:13,177 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-12 13:39:13,273 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-04-12 13:39:13,333 INFO org.hibernate.cache.internal.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-04-12 13:39:13,719 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-04-12 13:39:14,221 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4152eb84
+2024-04-12 13:39:14,224 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-04-12 13:39:15,494 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-12 13:39:18,090 INFO com.example.demo_department_account_bai_thi.DemoDepartmentAccountBaiThiApplication [restartedMain] Started DemoDepartmentAccountBaiThiApplication in 10.909 seconds (process running for 12.719)
+2024-04-12 13:39:33,648 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-4] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-12 13:39:33,898 ERROR com.example.demo_department_account_bai_thi.jwt.JwtTokenProvider [http-nio-8080-exec-5] Expired JWT Token
+2024-04-12 13:39:33,898 ERROR com.example.demo_department_account_bai_thi.jwt.JwtTokenProvider [http-nio-8080-exec-10] Expired JWT Token
+2024-04-12 13:39:33,898 ERROR com.example.demo_department_account_bai_thi.jwt.JwtTokenProvider [http-nio-8080-exec-9] Expired JWT Token
+2024-04-12 13:39:33,937 ERROR com.example.demo_department_account_bai_thi.jwt.JwtTokenProvider [http-nio-8080-exec-1] Expired JWT Token
+2024-04-12 13:39:33,938 ERROR com.example.demo_department_account_bai_thi.jwt.JwtTokenProvider [http-nio-8080-exec-6] Expired JWT Token
+2024-04-12 13:39:33,938 ERROR com.example.demo_department_account_bai_thi.jwt.JwtTokenProvider [http-nio-8080-exec-2] Expired JWT Token
+2024-04-12 13:39:33,955 ERROR com.example.demo_department_account_bai_thi.jwt.JwtTokenProvider [http-nio-8080-exec-3] Expired JWT Token
+2024-04-12 13:39:33,980 ERROR com.example.demo_department_account_bai_thi.jwt.JwtTokenProvider [http-nio-8080-exec-4] Expired JWT Token
+2024-04-12 13:39:41,320 ERROR com.example.demo_department_account_bai_thi.jwt.JwtTokenProvider [http-nio-8080-exec-2] Expired JWT Token
+2024-04-12 13:39:41,321 ERROR com.example.demo_department_account_bai_thi.jwt.JwtTokenProvider [http-nio-8080-exec-3] Expired JWT Token
+2024-04-12 13:39:41,320 ERROR com.example.demo_department_account_bai_thi.jwt.JwtTokenProvider [http-nio-8080-exec-1] Expired JWT Token
+2024-04-12 13:39:41,335 ERROR com.example.demo_department_account_bai_thi.jwt.JwtTokenProvider [http-nio-8080-exec-1] Expired JWT Token
+2024-04-12 13:39:41,340 ERROR com.example.demo_department_account_bai_thi.jwt.JwtTokenProvider [http-nio-8080-exec-5] Expired JWT Token
+2024-04-12 13:39:41,341 ERROR com.example.demo_department_account_bai_thi.jwt.JwtTokenProvider [http-nio-8080-exec-9] Expired JWT Token
+2024-04-12 13:39:41,355 ERROR com.example.demo_department_account_bai_thi.jwt.JwtTokenProvider [http-nio-8080-exec-10] Expired JWT Token
+2024-04-12 13:39:41,364 ERROR com.example.demo_department_account_bai_thi.jwt.JwtTokenProvider [http-nio-8080-exec-7] Expired JWT Token
+2024-04-12 13:40:01,462 ERROR com.example.demo_department_account_bai_thi.jwt.JwtTokenProvider [http-nio-8080-exec-4] Expired JWT Token
+2024-04-12 13:40:09,171 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-7] Get all list of account
+2024-04-12 13:40:09,243 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-8] Get all list of account
+2024-04-12 13:40:32,107 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-5] Get all list of account
+2024-04-12 13:44:35,112 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-2] Get all list of account
+2024-04-12 13:44:53,101 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-8] Get all list of account
+2024-04-12 13:47:06,108 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-9] Get all list of account
+2024-04-12 13:49:54,115 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-7] Get all list of account
+2024-04-12 13:52:12,123 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-4] Get all list of account
+2024-04-12 13:53:04,101 INFO com.example.demo_department_account_bai_thi.controller.AccountController [http-nio-8080-exec-10] Get all list of account
+2024-04-12 13:58:57,966 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-12 13:58:58,000 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
