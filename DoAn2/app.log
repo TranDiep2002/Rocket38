@@ -1,0 +1,33 @@
+2024-07-04 10:34:27,640 INFO com.example.doan2.DoAn2Application [restartedMain] Starting DoAn2Application using Java 17.0.9 with PID 2792 (D:\Rocket39_intel\DoAn2\target\classes started by admin in D:\Rocket39_intel\DoAn2)
+2024-07-04 10:34:27,645 INFO com.example.doan2.DoAn2Application [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-07-04 10:34:29,744 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2024-07-04 10:34:29,745 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-07-04 10:34:29,786 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-07-04 10:34:29,888 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-04 10:34:29,939 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-07-04 10:34:29,978 INFO org.hibernate.cache.internal.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-07-04 10:34:30,190 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-07-04 10:34:30,539 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21adf15f
+2024-07-04 10:34:30,541 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-07-04 10:34:31,491 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-04 10:34:33,543 INFO com.example.doan2.DoAn2Application [restartedMain] Started DoAn2Application in 6.223 seconds (process running for 6.812)
+2024-07-04 10:34:51,037 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-5] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-04 10:37:10,168 ERROR com.example.doan2.jwt.JwtTokenProvider [http-nio-8080-exec-9] Expired JWT Token
+2024-07-04 10:54:35,924 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-07-04 10:54:35,941 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-07-04 10:57:12,729 INFO com.example.doan2.DoAn2Application [restartedMain] Starting DoAn2Application using Java 17.0.9 with PID 14848 (D:\Rocket39_intel\DoAn2\target\classes started by admin in D:\Rocket39_intel\DoAn2)
+2024-07-04 10:57:12,734 INFO com.example.doan2.DoAn2Application [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-07-04 10:57:14,113 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2024-07-04 10:57:14,113 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-07-04 10:57:14,152 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-07-04 10:57:14,245 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-04 10:57:14,298 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-07-04 10:57:14,331 INFO org.hibernate.cache.internal.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-07-04 10:57:14,512 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-07-04 10:57:14,884 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2600207e
+2024-07-04 10:57:14,885 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-07-04 10:57:15,845 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-04 10:57:17,852 INFO com.example.doan2.DoAn2Application [restartedMain] Started DoAn2Application in 5.434 seconds (process running for 6.028)
+2024-07-04 10:57:44,401 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-4] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-04 10:58:13,491 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-07-04 10:58:13,503 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
